@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- ================= META CONFIGURAÇÕES ================= -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrinho | Basico Shopp</title>
+
+  <!-- ================= CSS BASE ================= -->
+  <link rel="stylesheet" href="assets/css/base.css" />
+
+  <!-- ================= COMPONENTES ================= -->
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/carrinho.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+
+  <!-- ================= RESPONSIVO ================= -->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="header-container">
+
+    <a href="index.html" class="logo-area">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/images/main/logo.png.png"
+        alt="Logo Basico Shopp"
+        class="logo-img"
+      >
+      <h1 class="logo">
+        <span class="logo-basico">Basico</span>
+        <span class="logo-shopp">Shopp</span>
+      </h1>
+    </a>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<!-- ================= CARRINHO ================= -->
+<main class="carrinho-page">
+  <h2>Seu carrinho</h2>
+
+  <div class="carrinho-container">
+
+    <!-- LISTA DE ITENS -->
+    <section class="carrinho-lista" id="carrinho-lista">
+      <!-- Itens serão inseridos via JS -->
+    </section>
+
+    <!-- RESUMO -->
+    <aside class="carrinho-resumo">
+      <h3>Resumo</h3>
+
+      <div class="resumo-linha">
+        <span>Total</span>
+        <span id="carrinho-total">Kz 0</span>
+      </div>
+
+      <button class="btn-finalizar">
+        Finalizar compra
+      </button>
+    </aside>
+
+  </div>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© Mukano Group — Todos os direitos reservados</p>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="assets/js/script.js"></script>
+<script src="assets/js/carrinho.js"></script>
+
+</body>
+</html>

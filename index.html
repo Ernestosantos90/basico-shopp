@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basico Shopp | Angola</title>
+
+  <link rel="stylesheet" 
+  href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="header-container">
+
+    <a href="index.html" class="logo-area">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/images/main/logo.png.png"
+        alt="Logo Basico Shopp"
+        class="logo-img"
+      >
+      <h1 class="logo">
+        <span class="logo-basico">Basico</span>
+        <span class="logo-shopp">Shopp</span>
+      </h1>
+    </a>
+
+    <button class="menu-toggle">☰</button>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="#novidades">Novidades</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-acoes">
+      <div class="search-box">
+        <input type="search" placeholder="Buscar produtos..." />
+      </div>
+
+      <a href="#" class="carrinho">
+        🛒 <span id="contador-carrinho">0</span>
+      </a>
+      <div class="mini-carrinho" id="mini-carrinho">
+  <h4>Carrinho</h4>
+
+  <ul class="mini-carrinho-lista"></ul>
+
+  <div class="mini-carrinho-footer">
+    <span>Total: <strong id="mini-total">Kz 0</strong></span>
+
+    <a href="carrinho.html" class="btn-ver-carrinho">
+      Ver carrinho
+    </a>
+  </div>
+</div>
+
+
+      <a href="login.html" class="login-btn">Login</a>
+
+      <img
+        src="https://api.dicebear.com/7.x/fun-emoji/svg?seed=basico"
+        class="avatar"
+        alt="Avatar"
+      >
+
+      <button id="toggle-theme">🌙</button>
+    </div>
+
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <h2>Nova Coleção</h2>
+  <p>O seu lifestyle com identidade angolana</p>
+  <a href="produtos.html" class="btn-hero">Explorar</a>
+</section>
+
+<!-- ================= PRODUTOS EM DESTAQUE ================= -->
+<main class="produtos">
+  <section class="destaques">
+    <h2>Produtos em destaque</h2>
+
+    <div class="slider">
+      <button class="slider-btn prev">←</button>
+
+      <div class="slider-viewport">
+        <div class="slider-track">
+
+<!-- 1️⃣ DJI Osmo Pocket 2 (Preta) -->
+<article class="card"
+  data-id="dji-osmo-pocket-2-preta"
+  data-nome="DJI Osmo Pocket 2 (Preta)"
+  data-preco="185000">
+
+  <a href="produto.html?id=dji-osmo-pocket-2-preta" class="card-link">
+    <div class="card__imagem">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/ecommerce-assets/7f6bab69445028af4e3027e976df5a0d67c375b5/gabinete-computador-1.jpg.jpg"
+        alt="DJI Osmo Pocket 2 Preta">
+    </div>
+  </a>
+
+  <div class="card__info">
+    <span class="card__badge">Destaque</span>
+    <h3 class="titulo-card">DJI Osmo Pocket 2 (Preta)</h3>
+    <span class="card__precoatual">Kz 185.000</span>
+
+    <button class="btn-add-carrinho">
+      Adicionar ao carrinho
+    </button>
+  </div>
+</article>
+
+<!-- 2️⃣ DJI Osmo Pocket 2 (Branca) -->
+<article class="card"
+  data-id="dji-osmo-pocket-2-branca"
+  data-nome="DJI Osmo Pocket 2 (Branca)"
+  data-preco="185000">
+
+  <a href="produto.html?id=dji-osmo-pocket-2-branca" class="card-link">
+    <div class="card__imagem">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/ecommerce-assets/7f6bab69445028af4e3027e976df5a0d67c375b5/gabinete-computador-5.jpg.jpg"
+        alt="DJI Osmo Pocket 2 Branca">
+    </div>
+  </a>
+
+  <div class="card__info">
+    <span class="card__badge">Destaque</span>
+    <h3 class="titulo-card">DJI Osmo Pocket 2 (Branca)</h3>
+    <span class="card__precoatual">Kz 185.000</span>
+
+    <button class="btn-add-carrinho">
+      Adicionar ao carrinho
+    </button>
+  </div>
+</article>
+
+<!-- 3️⃣ AirPods -->
+<article class="card"
+  data-id="airpods"
+  data-nome="AirPods"
+  data-preco="95000">
+
+  <a href="produto.html?id=airpods" class="card-link">
+    <div class="card__imagem">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/ecommerce-assets/7f6bab69445028af4e3027e976df5a0d67c375b5/gabinete-computador-1.jpg.jpg"
+        alt="AirPods">
+    </div>
+  </a>
+
+  <div class="card__info">
+    <span class="card__badge">Mais vendido</span>
+    <h3 class="titulo-card">AirPods</h3>
+    <span class="card__precoatual">Kz 95.000</span>
+
+    <button class="btn-add-carrinho">
+      Adicionar ao carrinho
+    </button>
+  </div>
+</article>
+
+<!-- 4️⃣ Câmera de Vigilância -->
+<article class="card"
+  data-id="camera-vigilancia"
+  data-nome="Câmera de Vigilância"
+  data-preco="48000">
+
+  <a href="produto.html?id=camera-vigilancia" class="card-link">
+    <div class="card__imagem">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/ecommerce-assets/7f6bab69445028af4e3027e976df5a0d67c375b5/gabinete-computador-1.jpg.jpg"
+        alt="Câmera de Vigilância">
+    </div>
+  </a>
+
+  <div class="card__info">
+    <span class="card__badge">Essencial</span>
+    <h3 class="titulo-card">Câmera de Vigilância</h3>
+    <span class="card__precoatual">Kz 48.000</span>
+
+    <button class="btn-add-carrinho">
+      Adicionar ao carrinho
+    </button>
+  </div>
+</article>
+
+<!-- 5️⃣ AirPods (reforço) -->
+<article class="card"
+  data-id="airpods"
+  data-nome="AirPods"
+  data-preco="95000">
+
+  <a href="produto.html?id=airpods" class="card-link">
+    <div class="card__imagem">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/ecommerce-assets/7f6bab69445028af4e3027e976df5a0d67c375b5/gabinete-computador-1.jpg.jpg"
+        alt="AirPods">
+    </div>
+  </a>
+
+  <div class="card__info">
+    <span class="card__badge">Oferta</span>
+    <h3 class="titulo-card">AirPods</h3>
+    <span class="card__precoatual">Kz 95.000</span>
+
+    <button class="btn-add-carrinho">
+      Adicionar ao carrinho
+    </button>
+  </div>
+</article>
+
+<!-- 6️⃣ Câmera de Vigilância (reforço) -->
+<article class="card"
+  data-id="camera-vigilancia"
+  data-nome="Câmera de Vigilância"
+  data-preco="48000">
+
+  <a href="produto.html?id=camera-vigilancia" class="card-link">
+    <div class="card__imagem">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/ecommerce-assets/7f6bab69445028af4e3027e976df5a0d67c375b5/gabinete-computador-1.jpg.jpg"
+        alt="Câmera de Vigilância">
+    </div>
+  </a>
+
+  <div class="card__info">
+    <span class="card__badge">Segurança</span>
+    <h3 class="titulo-card">Câmera de Vigilância</h3>
+    <span class="card__precoatual">Kz 48.000</span>
+
+    <button class="btn-add-carrinho">
+      Adicionar ao carrinho
+    </button>
+  </div>
+</article>
+
+<!-- 7️⃣ DJI Osmo Pocket 2 (loop visual) -->
+<article class="card"
+  data-id="dji-osmo-pocket-2-preta"
+  data-nome="DJI Osmo Pocket 2 (Preta)"
+  data-preco="185000">
+
+  <a href="produto.html?id=dji-osmo-pocket-2-preta" class="card-link">
+    <div class="card__imagem">
+      <img
+        src="https://raw.githubusercontent.com/Ernestosantos90/ecommerce-assets/7f6bab69445028af4e3027e976df5a0d67c375b5/gabinete-computador-1.jpg.jpg"
+        alt="DJI Osmo Pocket 2 Preta">
+    </div>
+  </a>
+
+  <div class="card__info">
+    <span class="card__badge">Premium</span>
+    <h3 class="titulo-card">DJI Osmo Pocket 2 (Preta)</h3>
+    <span class="card__precoatual">Kz 185.000</span>
+
+    <button class="btn-add-carrinho">
+      Adicionar ao carrinho
+    </button>
+  </div>
+</article>
+
+
+</div>
+
+
+
+          <!-- cards de destaque permanecem aqui -->
+        </div>
+      </div>
+
+      <button class="slider-btn next">→</button>
+    </div>
+
+    <a href="produtos.html" class="btn-ver-produtos">
+      Ver todos os produtos
+    </a>
+  </section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© Mukano Group — Todos os direitos reservados</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
+
